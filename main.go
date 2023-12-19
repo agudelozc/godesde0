@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/agudelozc/godesde0/ejercicios"
 )
 
@@ -26,8 +24,13 @@ func main() {
 		fmt.Println("Estamos en linux")
 	default:
 		fmt.Printf("%s \n", os)
-	} */
+	}
 
 	num, text := ejercicios.Ejercicio1("99")
 	fmt.Println("El numero ingresado es =", num, "Y", text)
+
+	teclado.IngresoNumeros()
+
+	iteraciones.Iterar()*/
+	ejercicios.Multiplicar()
 }
