@@ -37,6 +37,8 @@ func main() {
 	files.GrabaTabla()
 
 	files.SumaTabla()
-	files.LeoArchivo()*/
+	files.LeoArchivo()
 	funciones.Calculos()
+	funciones.LlamarClosure()*/
+	funciones.Exponencia(2)
 }
