@@ -1,8 +1,7 @@
 package main
 
 import (
-	e "github.com/agudelozc/godesde0/ejer_interfaces"
-	models "github.com/agudelozc/godesde0/modelos"
+	"github.com/agudelozc/godesde0/defer_panic"
 )
 
 func main() {
@@ -44,11 +43,12 @@ func main() {
 	funciones.Exponencia(2)
 	arreglos_slices.Capacidad()
 	mapas.MostrarMapas()
-	users.AltaUsuario()*/
+	users.AltaUsuario()
 	Pedro := new(models.Hombre)
 	e.HumanosRespirando(Pedro)
 
 	Maria := new(models.Mujer)
 	e.HumanosVivo(Maria)
-	//e.HumanosRespirando(Maria)
+	//e.HumanosRespirando(Maria)*/
+	defer_panic.EjemploPanic()
 }
