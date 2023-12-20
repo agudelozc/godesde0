@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/agudelozc/godesde0/users"
+	e "github.com/agudelozc/godesde0/ejer_interfaces"
+	models "github.com/agudelozc/godesde0/modelos"
 )
 
 func main() {
@@ -42,6 +43,12 @@ func main() {
 	funciones.LlamarClosure()
 	funciones.Exponencia(2)
 	arreglos_slices.Capacidad()
-	mapas.MostrarMapas()*/
-	users.AltaUsuario()
+	mapas.MostrarMapas()
+	users.AltaUsuario()*/
+	Pedro := new(models.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(models.Mujer)
+	e.HumanosVivo(Maria)
+	//e.HumanosRespirando(Maria)
 }
