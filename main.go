@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/agudelozc/godesde0/webserver"
+	"github.com/agudelozc/godesde0/middleware"
 )
 
 func main() {
@@ -57,6 +57,7 @@ func main() {
 			<-canal1
 	        fmt.Println("Termino mi nombre lento")
 		}()
-		fmt.Println("Estoy aqui")*/
-	webserver.MiWebServer()
+		fmt.Println("Estoy aqui")
+	webserver.MiWebServer()*/
+	middleware.MiMiddleware()
 }
