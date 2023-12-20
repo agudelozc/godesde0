@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/agudelozc/godesde0/mapas"
+	"github.com/agudelozc/godesde0/users"
 )
 
 func main() {
@@ -41,6 +41,7 @@ func main() {
 	funciones.Calculos()
 	funciones.LlamarClosure()
 	funciones.Exponencia(2)
-	arreglos_slices.Capacidad()*/
-	mapas.MostrarMapas()
+	arreglos_slices.Capacidad()
+	mapas.MostrarMapas()*/
+	users.AltaUsuario()
 }
